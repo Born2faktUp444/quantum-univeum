@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Univeum — niezależna platforma edukacyjna</title>
+    <meta name="description" content="Quantum Univeum (Quantum University) — niezależna platforma badawczo-edukacyjna Born2FactUp. Fizyka kwantowa, AI, świadomość, Wild Web. Nie formalny uniwersytet.">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --text: #e8e6e3;
+            --accent: #7c6bff;
+            --accent2: #4fd1c5;
+            --card: #16161f;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        header {
+            padding: 4rem 1.5rem 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, #0f0f1a 0%, transparent 100%);
+        }
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.8rem);
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 1.15rem;
+            opacity: 0.85;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+        }
+        .disclaimer {
+            display: inline-block;
+            background: rgba(124, 107, 255, 0.12);
+            border: 1px solid rgba(124, 107, 255, 0.3);
+            padding: 0.6rem 1.2rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(124, 107, 255, 0.4);
+        }
+        .card h3 {
+            color: var(--accent2);
+            margin-bottom: 0.6rem;
+            font-size: 1.2rem;
+        }
+        section {
+            margin-top: 3rem;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            opacity: 0.6;
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        a { color: var(--accent2); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quantum Univeum</h1>
+        <p class="subtitle">Niezależna platforma badawczo-edukacyjna łącząca fizykę kwantową, sztuczną inteligencję, neurotechnologię i ekosystemy naturalne. Projekt Born2FactUp.</p>
+        <div class="disclaimer">Nie jest formalnym uniwersytetem · Nie wydaje dyplomów ani certyfikatów o mocy urzędowej</div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Misja</h2>
+            <p>Rozwijanie otwartych materiałów, eksperymentów myślowych i projektów, które łączą naukę z ciekawością. Jawność źródeł, rozgraniczenie faktu od hipotezy, nauka przez budowanie.</p>
+        </section>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Quantum Science</h3>
+                <p>Podstawy fizyki kwantowej bez mitów: superpozycja, splątanie, dekoherencja i to, czego jeszcze nie wiemy.</p>
+            </div>
+            <div class="card">
+                <h3>AI & Consciousness</h3>
+                <p>Modele językowe, granice metafor „myślenia”, inżynieria i pytania o świadomość. Projekty takie jak EMI GPT i Asystentka Amy.</p>
+            </div>
+            <div class="card">
+                <h3>Quantum Connection</h3>
+                <p>Eksperymentalne systemy łączące fale mózgowe, harmoniczne częstotliwości i SDR — w ramach otwartych notatników, nie jako gotowa technologia.</p>
+            </div>
+            <div class="card">
+                <h3>Wild Web</h3>
+                <p>Inspiracje sieciami mikoryzowymi („Wood Wide Web”) dla cyfrowych systemów. Eksploracja, nie twierdzenia o działających hybrydach biologiczno-cyfrowych.</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>Status projektu</h2>
+            <p>Inicjatywa osobista / marka Born2FactUp. Materiały powstają jawnie. Lokalizacja związana z regionem Mroczy (eksperymenty i refleksja), ale platforma jest przede wszystkim cyfrowa i otwarta.</p>
+            <p style="margin-top:1rem;">Strona <strong>quantum-univeum.eu</strong> jest w przygotowaniu. Ten prototyp służy jako lokalna wersja robocza.</p>
+        </section>
+
+        <section>
+            <h2>Powiązane</h2>
+            <ul>
+                <li><a href="https://born2factup-quantum-hub.lovable.app/" target="_blank">Obecna platforma na Lovable</a></li>
+                <li>Projekty na GitHub (Born2faktUp444): quantum-connection i inne</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        Quantum Univeum / Born2FactUp · Niezależny projekt edukacyjny · 2026
+    </footer>
+</body>
+</html>
